@@ -13,8 +13,10 @@ theme= "hyde"
 [author]
 	name = "Sharad Shriram"
 	homepage = "https://sharadshriram.github.io"
+
 [Menus]
 	main = [
-		{Name = "About me", URL = "/about/"},
-		{Name = "Research", URL = "/research/"}
+		{Name = "Research", URL = "/research/"},
+		{Name = "Projects", URL = "/projects/"},
+		{Name = "Blog", URL = "/blog/"}
 	]

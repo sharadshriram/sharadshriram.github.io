@@ -3,9 +3,6 @@ title: "Research"
 date: 2021-11-07T20:49:19+05:30
 layout: "page"
 ---
-
-My current research interests are broadly in the topics of Human-centered AI, Natural Language Processing, Edge Intelligence, and Data-driven Modelling.
-
 An up-to-date list of publications is available on [Google Scholar](https://scholar.google.com/citations?user=N4S2OC0AAAAJ&hl=en)
 
 ### 2020

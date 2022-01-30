@@ -1,0 +1,23 @@
+{{ define "main" -}}
+
+{{ $prev := 3000 }}
+{{ range .Site.RegularPages -}}
+{{ if and (ne .Layout "page") (ne .Layout "li") }}
+	{{ if gt $prev (.Date.Format "2006") }}
+	{{ if ne $prev 3000 }}
+		</ul>
+		<hr>
+	{{ end }}
+		<h2 class="category-date"> {{ .Date.Format "2006" }}</h2>
+		<ul class="post-list">
+	{{ end }}
+		<li class="post-list-item">
+			<span>
+				<a href="{{ .Permalink }}">{{ .Title }}</a>
+				<time class="pull-right post-list" datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">{{ .Date.Format "Jan 2" }}</time>
+			</span>
+		</li>
+	{{ $prev = .Date.Format "2006" }}
+	{{ end }}
+{{ end }}
+{{- end }}
