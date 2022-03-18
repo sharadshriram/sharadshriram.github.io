@@ -5,8 +5,16 @@ layout: "page"
 ---
 An up-to-date list of publications is available on [Google Scholar](https://scholar.google.com/citations?user=N4S2OC0AAAAJ&hl=en)
 
+### 2021
+- Athreya, Siva, Giridhara R. Babu, Aniruddha Iyer, Nihesh Rathod, **Sharad Shriram**, Rajesh Sundaresan, Nidhin Koshy Vaidhiyan, and Sarath Yasodharan. "COVID-19: Optimal Design of Serosurveys for Disease Burden Estimation." Sankhya B (2021): 1-23. (author names in alphabetic order) [PDF](https://link.springer.com/article/10.1007/s13571-021-00267-w)
+
+---
 ### 2020
-- P Parag, P Patil, **S Shriram**, R Sundaresan, H Tyagi, N K. Vaidhiyan. 2020. “Antidote” for CoVID-19 pandemic induced surge in online learning. ACM SIGCOMM Online Networking Education Discussion workshop. [PDF](http://gaia.cs.umass.edu/sigcomm_education_workshop_2020/papers/sigcommedu20-final36.pdf)
+- Talekar, A., **Shriram, S.**, Vaidhiyan, N., Aggarwal, G., Chen, J., Venkatramanan, S., Wang, L., Adiga, A., Sadilek, A., Tendulkar, A. and Marathe, M., 2021, May. Cohorting to Isolate Asymptomatic Spreaders: An Agent-Based Simulation Study on the Mumbai Suburban Railway. In Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems (pp. 1680-1682). [PDF](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1680.pdf)
+- Agrawal, S., Bhandari, S., Bhattacharjee, A., Deo, A., Dixit, N.M., Harsha, P., Juneja, S., Kesarwani, P., Swamy, A.K., Patil, P., Rathod, N., Saptharishi, R., **Shriram, S.**, Srivastava, P.,Sundaresan, R., Vaidhiyan, N., Yasodharan, S., 2020. City-scale agent-based simulators for the study of non-pharmaceutical interventions in the context of the COVID-19 epidemic. Journal of the Indian Institute of Science, 100(4), pp.809-847. (author names in alphabetic order) [PDF](https://link.springer.com/article/10.1007/s41745-020-00211-3)
+- Harsha, P., Juneja, S., Patil, P., Rathod, N., Saptharishi, R., Sarath, A.Y., **Sriram, S.**, Srivastava, P., Sundaresan, R. and Vaidhiyan, N.K., 2020. Covid-19 epidemic study II: Phased emergence from the lockdown in mumbai. arXiv preprint arXiv:2006.03375. (author names in alphabetic order) [PDF](https://arxiv.org/pdf/2006.03375.pdf)
+- Parag, P., Patil, P., **Shriram, S.**, Sundaresan, R., Tyagi, H., Vaidhiyan, N., 2020, “Antidote” for CoVID-19 pandemic induced surge in online learning. ACM SIGCOMM Online Networking Education Discussion workshop. (author names in alphabetic order) [PDF](http://gaia.cs.umass.edu/sigcomm_education_workshop_2020/papers/sigcommedu20-final36.pdf)
+
 
 ---
 ### 2019
