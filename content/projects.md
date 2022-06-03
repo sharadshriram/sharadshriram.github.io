@@ -4,6 +4,28 @@ date: 2021-11-07T20:49:19+05:30
 layout: "page"
 ---
 
+The page is under active development....
+
+### DataCommons (2021-2022)
+TBA 
+
+---
+
+### CoVID 19 Response projects at CNI, IISc (2019-2021)
+TBA
+
+---
+
+### Hacking Antidote (2019)
+TBA
+
+---
+
+### Detecting and Obfuscating visual cues in images that contain personally  identifiable information (2019)
+TBA
+
+--
+
 
 ### [MyCI: A campus chatbot powered by human-computation (2018)](https://sharadshriram.github.io/myci_campus_crowd_chatbot/)
 A Telegram-based chatbot developed as a course-project that uses concepts of crowd computing to recommend courses to students from students who have done the same or similar course in the past. Code on [Github](https://github.com/sharadshriram/myci_campus_crowd_chatbot)
@@ -16,20 +38,6 @@ Using the [NAO](https://www.softbankrobotics.com/emea/en/nao) as robot assistant
 ---
 
 ### [Smart-bus for a smart city(2016)](#)
-<img src="" title="Smart-bus project" />
 Bachelor thesis project to help end-users determine the estimated arrival time of buses developed using concepts of IoT and predictive analytics.
 
 ---
-
-
-<style>
-.page img {
-    float: left;
-    margin-right: 10px;
-}
-
-.page hr {
-    clear: both;
-    border: none;
-}
-</style>
