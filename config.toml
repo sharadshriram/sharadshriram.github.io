@@ -1,22 +1,70 @@
-baseurl = "https://sharadshriram.github.io/"
+baseurl = "https://sharadshriram.github.io"
+DefaultContentLanguage = "en"
+
 title = "Sharad Shriram"
-tags = ["blog", "cs research", "data science", "cs education", "personal"]
-features = [""]
-min_version = 0.1
-theme= "hyde"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
 
-[params]
-	description = "Thoughts, Notes and Ideas"
-	themeColor = "theme-base-08"
-	layoutReverse = false
 
-[author]
-	name = "Sharad Shriram"
-	homepage = "https://sharadshriram.github.io"
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Data Commons Associate, Google"
+  mainSections = ["post","posts"]
+  logo = "img/sharad.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = false
+  readingTime = true
+  wordCount = false
+  useHLJS = true
+  socialShare = false
+  delayDisqus = false
+  showRelatedPosts = false
+#  hideAuthor = true
 
-[Menus]
-	main = [
-		{Name = "Research", URL = "/research/"},
-		{Name = "Projects", URL = "/projects/"},
-		{Name = "Blog", URL = "/blog/"}
-	]
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Sharad Shriram"
+  website = "sharadshriram.github.io"
+  #email = "youremail@domain.com"
+  github = "sharadshriram"
+  #gitlab = ""
+  #bitbucket = ""
+  twitter = "username"
+  linkedin = "sharadshriram"
+  #youtube = "user/username" # or channel/channelname
+  #kaggle = "username"
+  
+[[menu.main]]
+    name = "Blog"
+    url = "page/blog"
+    weight = 1
+
+[[menu.main]]
+    name = "Publications"
+    url = "page/research/"
+    weight = 3
+
+[[menu.main]]
+    name = "Projects"
+    url = "page/projects/"
+    weight = 3

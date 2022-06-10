@@ -1,19 +1,36 @@
-{{ define "main" -}}
+{{ define "main" }}
+  <div role="main" class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        {{ with .Content }}
+          <div class="well">
+            {{.}}
+          </div>
+        {{ end }}
+        <hr>
+        <h1>Recent Posts</h1>
+        <div class="posts-list">
+          {{ $pag := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+          {{ range $pag.Pages }}
+            {{ partial "post_prev" . }}
+          {{ end }}
+        </div>
 
-<h3>
-    Hi! Welcome to my digital world.
-</h3>
-
-<p>
-    I am currently working as an internal contributor for <a href="https://datacommons.org">DataCommons</a>, the open knowledge graph project at Google. 
-</p>
-<p>
-    Previously, I worked at the <a href="https://cni.iisc.ac.in/">Centre for Networked Intelligence</a> with <a href="https://eecs.iisc.ac.in/people/rajesh-sundaresan/">Prof. Rajesh Sundaresan</a> at the Indian Institute of Science, Bangalore, India. I completed my masters in Computer Science with a specialization in Data Science and Technology from the <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/web-information-systems/">Web Information Systems</a> group, at the <a href="https://www.tudelft.nl/en/">Delft University of Technology</a> under the supervision of <a href="https://www.alessandrobozzon.com/">Prof. Dr. ir. Alessandro Bozzon</a>. During my stay in the Netherlands, I spent the summer as an <a href="https://www.ibm.com/employment/extremeblue/">IBM Extreme Blue</a> intern. My journey started at <a href="https://amrita.edu">Amrita Vishwa Vidyapeetham (University)</a> where I graduated with a Bachelors in Computer Science and Engineering and also was initiated to pursue research by <a href="https://amrita.edu/faculty/v-ananthanarayanan/">Dr. V. Ananthanarayanan</a> and <a href="https://amrita.edu/faculty/pbsk/">Dr. P. Bagavathi Sivakumar</a>.
-</p>
-<p>
-    My primary research interest is in the theme of "Human-centric intelligence". I am exploring how much humans (represented as the annotators or crowd) and AI (different ML learning approaches and strategies) can work together, "Human-AI" teams. My first exploration on "Human-AI" teams was in my <a href="https://repository.tudelft.nl/islandora/object/uuid:30846529-9080-4945-8502-dc962ec00bf3">master's thesis</a> where I studied the system design required for "Human-AI" teams to effectively detect and preserve privacy in images used for image annotation tasks. My fascination to understand the "human" stemmed from a course project where we developed a robot assistant to help cognitivelly challenged, single mothers prepare breakfast for their child.
-</p>
-<p>
-    The other topic which has piqued my interest recently, is "fairness", and "explainability" in AI, and I am more interested in studying the perception of these topics by humans (through human computation tasks). Through opportunities to work in different projects at <a href="https://cni.iisc.ac.in/">Centre for Networked Intelligence</a>, I my research interests expanded to Natural Language Processing, Large-scale data processing, and Data-driven Modelling. It was while working on these projects that I wanted to make public data easily accessible for machine consumption which led me to work on the <a href="https://datacommons.org">DataCommons project</a>.
-</p>
-{{- end }}
+        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+          <ul class="pager main-pager">
+            {{ if .Paginator.HasPrev }}
+              <li class="previous">
+                <a href="{{ .Permalink }}page/{{ .Paginator.Prev.PageNumber }}/">&larr; {{ i18n "newerPosts" }}</a>
+              </li>
+            {{ end }}
+            {{ if .Paginator.HasNext }}
+              <li class="next">
+                <a href="{{ .Permalink }}page/{{ .Paginator.Next.PageNumber }}/">{{ i18n "olderPosts" }} &rarr;</a>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}

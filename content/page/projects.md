@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 date: 2021-11-07T20:49:19+05:30
-layout: "page"
+layout: "single"
 ---
 
 

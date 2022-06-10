@@ -1,0 +1,22 @@
+baseurl = "https://sharadshriram.github.io/"
+title = "Sharad Shriram"
+tags = ["blog", "cs research", "data science", "cs education", "personal"]
+features = [""]
+min_version = 0.1
+theme= "hyde"
+
+[params]
+	description = "Thoughts, Notes and Ideas"
+	themeColor = "theme-base-08"
+	layoutReverse = false
+
+[author]
+	name = "Sharad Shriram"
+	homepage = "https://sharadshriram.github.io"
+
+[Menus]
+	main = [
+		{Name = "Research", URL = "/research/"},
+		{Name = "Projects", URL = "/projects/"},
+		{Name = "Blog", URL = "/blog/"}
+	]
