@@ -3,7 +3,7 @@ title: "Publications"
 date: 2021-11-07T20:49:19+05:30
 layout: "single"
 ---
-An up-to-date list of publications is available on [Google Scholar](https://scholar.google.com/citations?user=N4S2OC0AAAAJ&hl=en)
+I can also be found on [Google Scholar](https://scholar.google.com/citations?user=N4S2OC0AAAAJ&hl=en)
 
 ### 2021
 {{< pub type="journal" authors="Siva Athreya, Giridhara R. Babu, Aniruddha Iyer, Nihesh Rathod, Sharad Shriram, Rajesh Sundaresan, Nidhin Koshy Vaidhiyan, and Sarath Yasodharan" title="COVID-19: Optimal Design of Serosurveys for Disease Burden Estimation" info="Sankhya B (2021): 1-23" pdf="https://link.springer.com/article/10.1007/s13571-021-00267-w" code="https://github.com/cni-iisc/optimal-sero-survey-design" >}}

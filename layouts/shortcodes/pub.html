@@ -1,8 +1,21 @@
 <!--pub-->
 {{ if .IsNamedParams }}
     <p>
-     <img src="../../img/ppr/{{ .Get "type" }}.png" height="20px" style="float:left;"> &nbsp;
+     <img src="../../img/ppr/{{ .Get "type" }}.png" height="20px" style="float:left;">
+    {{ if .Get "award" }}
+    <img src="../../img/ppr/award.png" height="25px" style="float:left;padding-left: 2px;">
+    {{ end }}
+    {{ if .Get "mention" }}
+    <img src="../../img/ppr/mention.png" height="25px" style="float:left; padding-left: 2px;">
+    {{ end }}
+    &nbsp;
     {{ .Get "authors" }}. <em>{{ .Get "title" }}</em>, {{ .Get "info" }}.
+    {{ if .Get "award" }}
+    <span style="color:red">It received the {{ .Get "award" }}</span> 
+    {{ end }}
+    {{ if .Get "mention" }}
+    <span style="color:red">It received the  {{ .Get "mention" }}</span> 
+    {{ end }}
     {{ if .Get "pdf" }}
     <a class="btn btn-outline-danger" href="{{ .Get "pdf" }}" role="button">
         <i class="fa fa-file-pdf"></i> PDF

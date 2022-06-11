@@ -7,7 +7,7 @@
 		
 		{{ $prev := 3000 }}
 		{{ range .Site.RegularPages -}}
-		{{ if and (ne .Layout "single") (ne .Layout "li") }}
+		{{ if and (ne .Layout "single") (ne .Layout "blogHome") }}
 			{{ if gt $prev (.Date.Format "2006") }}
 			{{ if ne $prev 3000 }}
 				</ul>

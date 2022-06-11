@@ -10,6 +10,7 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
+enableEmoji=true
 
 
 [Params]
