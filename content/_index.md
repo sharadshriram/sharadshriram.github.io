@@ -4,6 +4,9 @@ subtitle: "Data Commons, Google"
 layout: "single"
 ---
 
+For a brief and compact overview, take a look at my 1-page [CV](../docs/Sharad_Shriram_1pgCV.pdf)
+
+
 I am currently working as an internal contributor for [DataCommons](https://datacommons.org), the open knowledge graph project at Google. 
 
 Previously, I worked at the [Centre for Networked Intelligence](https://cni.iisc.ac.in/) with [Prof. Rajesh Sundaresan](https://eecs.iisc.ac.in/people/rajesh-sundaresan/) at the Indian Institute of Science, Bangalore, India. I completed my masters in Computer Science with a specialization in Data Science and Technology from the [Web Information Systems](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/web-information-systems/) group, at the [Delft University of Technology](https://www.tudelft.nl/en/) under the supervision of [Prof. Dr. ir. Alessandro Bozzon](https://www.alessandrobozzon.com/). During my stay in the Netherlands, I spent the summer as an [IBM Extreme Blue](https://www.ibm.com/employment/extremeblue/) intern. My journey started at [Amrita Vishwa Vidyapeetham (University)](https://amrita.edu) where I graduated with a Bachelors in Computer Science and Engineering and also was initiated to pursue research by [Dr. V. Ananthanarayanan](https://amrita.edu/faculty/v-ananthanarayanan/) and [Dr. P. Bagavathi Sivakumar](https://amrita.edu/faculty/pbsk/).
