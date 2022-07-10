@@ -14,8 +14,8 @@ enableEmoji=true
 
 
 [Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Data Commons Associate, Google"
+  homeTitle = "Pre-Doctoral Researcher" # Set a different text for the header on the home page
+  subtitle = "Google Research India"
   mainSections = ["post","posts"]
   logo = "img/sharad.png" # Expecting square dimensions
   #favicon = "img/favicon.ico"
