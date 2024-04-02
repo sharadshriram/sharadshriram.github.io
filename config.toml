@@ -56,9 +56,14 @@ enableEmoji=true
   #kaggle = "username"
   
 [[menu.main]]
+    name = "Resume/ CV"
+    url = "https://sharadshriram.github.io/docs/Sharad_Shriram_1pgCV.pdf"
+    weight = 1
+    
+[[menu.main]]
     name = "Blog"
     url = "page/blog"
-    weight = 1
+    weight = 2    
 
 [[menu.main]]
     name = "Publications"
