@@ -57,7 +57,7 @@ enableEmoji=true
   
 [[menu.main]]
     name = "Resume/ CV"
-    url = "https://sharadshriram.github.io/docs/Sharad_Shriram_1pgCV.pdf"
+    url = "https://sharadshriram.github.io/docs/SharadShriram_Resume.pdf"
     weight = 1
     
 [[menu.main]]
