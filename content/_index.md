@@ -9,7 +9,7 @@ layout: "single"
 - 📄 May, 2021: Our work to model the impact of cohorted travelling in Mumbai locals is accepted as an extended abstract at AAMAS 2021
 
 ## About 
-For a brief and compact overview, take a look at my 1-page [CV](../docs/Sharad_Shriram_1pgCV.pdf).
+For a brief and compact overview, take a look at my 1-page [CV](../docs/SharadShriram_Resume.pdf).
 
 Between mid-2021 and mid-2022, I was a full-time contributor to the [DataCommons](https://datacommons.org), the open knowledge graph project at Google. My contributions were mainly in expanding the data coverage and defining new schema on the knowledge graph. The project resonates with my desire to have a unified data store, where public data is cleaned, and curated for machine consumption.
 
