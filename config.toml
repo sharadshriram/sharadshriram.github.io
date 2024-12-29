@@ -14,8 +14,8 @@ enableEmoji=true
 
 
 [Params]
-  homeTitle = "Pre-Doctoral Researcher" # Set a different text for the header on the home page
-  subtitle = "Google Research India"
+  homeTitle = "AI Privacy Engineer" # Set a different text for the header on the home page
+  subtitle = "Google India"
   mainSections = ["post","posts"]
   logo = "img/sharad.png" # Expecting square dimensions
   #favicon = "img/favicon.ico"
