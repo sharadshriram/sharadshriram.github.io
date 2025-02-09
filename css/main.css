@@ -31,14 +31,14 @@ body {
   }
   p a {
     /* text-decoration: underline */
-    color: #008AFF;
+    color: #00cc00;
   }
   h1,h2,h3,h4,h5,h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 800;
   }
   a {
-    color: #008AFF;
+    color: #00cc00;
   }
   a:hover,
   a:focus {
@@ -99,12 +99,12 @@ body {
   ::-moz-selection {
     color: white;
     text-shadow: none;
-    background: #1d418c;
+    background: #1d8c46;
   }
   ::selection {
     color: white;
     text-shadow: none;
-    background: #1d418c;
+    background: #1d8c46;
   }
   img::selection {
     color: white;
@@ -159,7 +159,7 @@ body {
   .navbar-custom .navbar-brand:focus ,
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: #1d418c;
+    color: #1d8c46;
   }
   
   .navbar-custom .navbar-brand-logo {
@@ -270,7 +270,7 @@ body {
   }
   @media only screen and (max-width: 767px) {
     .navbar-custom .nav .navlinks-container.show-children {
-      background: #a0a0a0;
+      background: #e9e8e8d4;
     }
     .navbar-custom .nav .navlinks-container.show-children .navlinks-children {
       display: block;
@@ -281,7 +281,7 @@ body {
       text-align: center;
     }
     .navbar-custom .nav .navlinks-container:hover {
-      background: #a0a0a0;
+      background: #e9e8e8d4;
     }
     .navbar-custom .nav .navlinks-container:hover .navlinks-children {
       display: block;
@@ -291,7 +291,7 @@ body {
     }
     .navbar-custom .nav .navlinks-container .navlinks-children a {
       padding-left: 10px;
-      border: 1px solid #a0a0a0;
+      border: 1px solid #e9e8e8d4;
       border-width: 0 1px 1px;
     }
   }
@@ -307,7 +307,7 @@ body {
   }
   
   footer a {
-    color: #e1dfdf;
+    color: #f3efefd3;
   }
   
   footer .list-inline {
@@ -340,7 +340,7 @@ body {
   
   .post-preview {
     padding: 20px 0;
-    border-bottom: 1px solid #a0a0a0;
+    border-bottom: 1px solid #404040;
   }
   
   @media only screen and (min-width: 768px) {
@@ -552,14 +552,14 @@ body {
     -moz-box-shadow: 1px 1px 3px #000;
   }
   .intro-header.big-img .post-heading .post-meta {
-    color: #a0a0a0;
+    color: #e9e8e8d4;
   }
   .intro-header.big-img .img-desc {
     background: rgba(30, 30, 30, 0.6);
     position: absolute;
     padding: 5px 10px;
     font-size: 11px;
-    color: #a0a0a0;
+    color: #e9e8e8d4;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     right: 0;
     bottom: 0;
