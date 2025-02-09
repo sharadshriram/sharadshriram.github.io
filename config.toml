@@ -58,3 +58,7 @@ enableEmoji=true
     name = "Projects"
     url = "page/projects/"
     weight = 3
+
+[module]
+  [[module.imports]]
+    path = 'github.com/halogenica/beautifulhugo'
