@@ -45,7 +45,7 @@ body {
     color: #00cc00;
   }
   blockquote {
-    color: #808080;
+    color: #fcfcfc;
     font-style: italic;
   }
   blockquote p:first-child {
@@ -152,14 +152,14 @@ body {
   .navbar-custom .navbar-brand,
   .navbar-custom .nav li a {
     font-weight: 800;
-    color: #e9e8e8d4;
+    color: #f7f7f7;
   }
   
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus ,
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: #e9e8e8d4;
+    color: #f7f7f7;
   }
   
   .navbar-custom .navbar-brand-logo {
