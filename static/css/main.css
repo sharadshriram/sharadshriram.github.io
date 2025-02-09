@@ -138,7 +138,7 @@ body {
   /* --- Navbar --- */
   
   .navbar-custom {
-    background: #fcce06;
+    background: #825aae;
     border-bottom: 1px solid #EAEAEA;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
@@ -270,7 +270,7 @@ body {
   }
   @media only screen and (max-width: 767px) {
     .navbar-custom .nav .navlinks-container.show-children {
-      background: #eee;
+      background: #a0a0a0;
     }
     .navbar-custom .nav .navlinks-container.show-children .navlinks-children {
       display: block;
@@ -281,7 +281,7 @@ body {
       text-align: center;
     }
     .navbar-custom .nav .navlinks-container:hover {
-      background: #eee;
+      background: #a0a0a0;
     }
     .navbar-custom .nav .navlinks-container:hover .navlinks-children {
       display: block;
@@ -291,7 +291,7 @@ body {
     }
     .navbar-custom .nav .navlinks-container .navlinks-children a {
       padding-left: 10px;
-      border: 1px solid #eaeaea;
+      border: 1px solid #a0a0a0;
       border-width: 0 1px 1px;
     }
   }
@@ -300,8 +300,8 @@ body {
   
   footer {
     padding: 30px 0;
-    background: #fcce06;
-    border-top: 1px #fcce06 solid;
+    background: #825aae;
+    border-top: 1px #825aae solid;
     margin-top: auto;
     font-size: 14px;
   }
@@ -340,7 +340,7 @@ body {
   
   .post-preview {
     padding: 20px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #a0a0a0;
   }
   
   @media only screen and (min-width: 768px) {
@@ -361,7 +361,7 @@ body {
   .post-preview a:focus,
   .post-preview a:hover {
     text-decoration: none;
-    color: #0085a1;
+    color: #00cc00;
   }
   
   .post-preview .post-title {
@@ -552,14 +552,14 @@ body {
     -moz-box-shadow: 1px 1px 3px #000;
   }
   .intro-header.big-img .post-heading .post-meta {
-    color: #EEE;
+    color: #a0a0a0;
   }
   .intro-header.big-img .img-desc {
     background: rgba(30, 30, 30, 0.6);
     position: absolute;
     padding: 5px 10px;
     font-size: 11px;
-    color: #EEE;
+    color: #a0a0a0;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     right: 0;
     bottom: 0;
@@ -654,8 +654,8 @@ body {
   .pager li a:hover,
   .pager li a:focus {
     color: #FFF;
-    background: #0085a1;
-    border: 1px solid #0085a1;
+    background: #00cc00;
+    border: 1px solid #00cc00;
   }
   
   .pager {
@@ -771,8 +771,8 @@ body {
   .disqus-comments button:hover, 
   .disqus-comments button:focus {
     color: #FFF;
-    background: #0085a1;
-    border: 1px solid #0085a1;
+    background: #00cc00;
+    border: 1px solid #00cc00;
   }
   
   /* Related posts */
