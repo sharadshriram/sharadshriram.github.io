@@ -481,7 +481,9 @@ body {
     }
   }
   /* --- Post and page headers --- */
-  
+  .text-muted {
+    color: #fcfcfc;
+  }
   .intro-header {
     margin: 80px 0 20px;
     position: relative;
