@@ -29,19 +29,7 @@ enableEmoji=true
   socialShare = false
   delayDisqus = false
   showRelatedPosts = false
-#  hideAuthor = true
 
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#  # position: see values of CSS background-position.
-#  position = "center top"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
 
 [Author]
   name = "Sharad Shriram"
