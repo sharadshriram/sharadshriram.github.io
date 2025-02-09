@@ -42,7 +42,7 @@ body {
   }
   a:hover,
   a:focus {
-    color: #1d418c;
+    color: #00cc00;
   }
   blockquote {
     color: #808080;
@@ -139,7 +139,7 @@ body {
   
   .navbar-custom {
     background: #825aae;
-    border-bottom: 1px solid #EAEAEA;
+    border-bottom: 1px solid #eaeaea;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   
@@ -152,14 +152,14 @@ body {
   .navbar-custom .navbar-brand,
   .navbar-custom .nav li a {
     font-weight: 800;
-    color: #e1dfdf;
+    color: #e9e8e8d4;
   }
   
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus ,
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: #1d8c46;
+    color: #e9e8e8d4;
   }
   
   .navbar-custom .navbar-brand-logo {
