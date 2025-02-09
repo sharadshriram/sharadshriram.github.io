@@ -151,7 +151,7 @@ body {
   
   .navbar-custom .navbar-brand,
   .navbar-custom .nav li a {
-    font-weight: 800;
+    font-weight: 600;
     color: #f7f7f7;
   }
   
@@ -307,7 +307,7 @@ body {
   }
   
   footer a {
-    color: #f3efefd3;
+    color: #f7f7f7;
   }
   
   footer .list-inline {
