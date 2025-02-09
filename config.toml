@@ -15,10 +15,9 @@ enableEmoji=true
 
 [Params]
   homeTitle = "AI Privacy Engineer" # Set a different text for the header on the home page
-  subtitle = "Google India"
+  subtitle = "Google"
   mainSections = ["post","posts"]
   logo = "img/sharad.png" # Expecting square dimensions
-  #favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = false
@@ -34,10 +33,7 @@ enableEmoji=true
 [Author]
   name = "Sharad Shriram"
   website = "sharadshriram.github.io"
-  #email = "youremail@domain.com"
   github = "sharadshriram"
-  #gitlab = ""
-  #bitbucket = ""
   twitter = "username"
   linkedin = "sharadshriram"
   #youtube = "user/username" # or channel/channelname
