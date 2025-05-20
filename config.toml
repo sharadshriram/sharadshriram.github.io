@@ -1,0 +1,60 @@
+baseurl = "https://sharadshriram.github.io"
+DefaultContentLanguage = "en"
+
+title = "Sharad Shriram"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+enableEmoji=true
+
+
+[Params]
+  homeTitle = "AI Privacy Engineer" # Set a different text for the header on the home page
+  subtitle = "Google"
+  mainSections = ["post","posts"]
+  logo = "img/ss.jpg" # Expecting square dimensions
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = false
+  readingTime = true
+  wordCount = false
+  useHLJS = true
+  socialShare = false
+  delayDisqus = false
+  showRelatedPosts = false
+
+
+[Author]
+  name = "Sharad Shriram"
+  website = "sharadshriram.github.io"
+  github = "sharadshriram"
+  twitter = "username"
+  linkedin = "sharadshriram"
+  #youtube = "user/username" # or channel/channelname
+  #kaggle = "username"
+  
+[[menu.main]]
+    name = "Resume/ CV"
+    url = "https://sharadshriram.github.io/docs/SharadShriram_Resume.pdf"
+    weight = 1
+    
+[[menu.main]]
+    name = "Blog"
+    url = "page/blog"
+    weight = 2    
+
+[[menu.main]]
+    name = "Publications"
+    url = "page/research/"
+    weight = 3
+
+[[menu.main]]
+    name = "Projects"
+    url = "page/projects/"
+    weight = 3
