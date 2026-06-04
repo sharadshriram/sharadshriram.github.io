@@ -4,7 +4,7 @@ layout: "single"
 ---
 
 ## About 
-For a brief and compact overview, take a look at my 1-page [CV](../docs/SharadShriram_Resume.pdf).
+For a brief and compact overview, take a look at my [CV](../docs/SharadShriram_Resume.pdf).
 
 
 ### The journey so far..
