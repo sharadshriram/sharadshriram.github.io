@@ -14,7 +14,7 @@ enableEmoji=true
 
 
 [Params]
-  homeTitle = "AI Privacy Engineer" # Set a different text for the header on the home page
+  homeTitle = "Software Engineer - Applied ML and Privacy" # Set a different text for the header on the home page
   subtitle = "Google"
   mainSections = ["post","posts"]
   logo = "img/ss.jpg" # Expecting square dimensions
